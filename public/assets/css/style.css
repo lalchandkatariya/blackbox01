@@ -1,0 +1,369 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap');
+
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body {
+   font-family: 'Space Grotesk', sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 15px;
+    -webkit-font-smoothing: antialiased;
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    background: #f7f7f7;
+}
+
+dl,
+dt,
+dd,
+ul,
+ol,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+pre,
+form,
+fieldset,
+legend,
+input,
+textarea,
+p
+ {
+    margin: 0;
+    padding: 0
+}
+
+fieldset,
+img {
+    border: 0
+}
+
+ol,
+ul {
+    list-style: none
+}
+
+a {
+    cursor: pointer;
+    text-decoration: none;
+}
+.clearfix:before,
+.clearfix:after {
+    display: block;
+    content: "";
+    line-height: 0
+}
+
+.clearfix:after {
+    clear: both
+}
+
+.clear {
+    clear: both
+}
+
+.btn {
+    outline: 0px;
+}
+
+.lists {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+.mainpage {
+    position: relative;
+    overflow: hidden;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+   font-family: 'Space Grotesk', sans-serif;
+    font-weight: bold;
+}
+
+img {
+    width: auto;
+    height: auto;
+}
+.container {
+    max-width: 1200px;
+    width: 100%;
+    margin: auto;
+    padding: 0 15px;
+}
+
+
+.MainHomeBanner {
+    background: #000;
+    height: 100vh;
+}
+.MainHomeBanner_Header {
+    margin: 0;
+    align-items: center;
+    display: flex;
+    height: 130px;
+    justify-content: space-between;
+    padding: 0px 60px;
+    position: relative;
+}
+.HomeBanner_slider {
+    position: relative;
+    z-index: 999;
+    margin: -68px 0 0 0;
+}
+.MainHomeBanner_content {
+    position: relative;
+    z-index: 999999;
+}
+.MainHomeBanner_slider01 {
+    padding: 250px 0 260px;
+    position: relative;
+}
+.MainHomeBanner_slider01_inner {
+    position: relative;
+}
+.MainHomeBanner_slider01_content .marquee {
+    position: relative;
+    width: 100vw;
+    max-width: 100%;
+    height: 140px;
+    overflow-x: hidden;
+    border-top:  solid 1px #141414;
+  }
+  
+.MainHomeBanner_slider01_content .marquee .track {
+    white-space: nowrap;
+    will-change: transform;
+    animation: marquee 32s linear infinite;
+    font-size: 100px;
+    color: #fff;
+    height: 100%;
+    position: absolute;
+    padding: 10px 0;
+  }
+.MainHomeBanner_slider01_content .marquee .track .content {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+}
+  @keyframes marquee {
+    from { transform: translateX(-30%); }
+    to { transform: translateX(0); }
+  }
+
+  .MainHomeBanner_slider02_content .marquee {
+    position: relative;
+    width: 100vw;
+    max-width: 100%;
+    height: 140px;
+    overflow-x: hidden;
+    border-top:  solid 1px #141414;
+  }
+  
+.MainHomeBanner_slider02_content .marquee .track {
+    white-space: nowrap;
+    will-change: transform;
+    animation: marquee2 32s linear infinite;
+    font-size: 100px;
+    color: #000;
+    height: 100%;
+    position: absolute;
+    background: #b6b6b6;
+  }
+.MainHomeBanner_slider02_content .marquee .track .content {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+}
+.MainHomeBanner_slider02_content .marquee .track .content span {
+    padding: 0 20px;
+    height: 40px;
+    text-align: center;
+    margin: 60px 0 0 0;
+}
+  @keyframes marquee2 {
+    from { transform: translateX(0%); }
+    to { transform: translateX(-30%); }
+  }
+  
+  .MainHomeBanner_slider03_content {
+    margin: 0;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+.MainHomeBanner_slider03_content img {
+    max-width: 397px;
+    margin-top: 0px;
+}
+.inspired_Content {
+    position: absolute;
+    bottom: 10px;
+    padding: 0 0 0 50px;
+    max-width: 449px;
+}
+.inspired_Content h3 {
+    color: #fff;
+    font-size: 27px;
+    margin: 0;
+}
+.inspired_Content p {
+    color: #b6b6b6;
+    font-size: 16px;
+    margin: 22px 0 35px;
+    line-height: 24px;
+}
+.inspired_Content a {
+    display: flex;
+    align-items: center;
+    color: #fff;
+    text-decoration: none;
+}
+.inspired_Content a img {
+    max-width: 11px;
+    filter: brightness(0) invert(1);
+    transform: translateX(18px);
+    transition: transform .5s cubic-bezier(.25,.1,.13,.89);
+    margin-right: 10px;
+}
+.inspired_Content a:hover img {
+    transform: translateX(12px)
+}
+
+
+
+
+.MainHomeBanner_slider02 {
+    margin: 0;
+}
+.MainHomeBanner_slider02 .MainHomeBanner_slider02_inner {
+    margin: 5px 0 0 0;
+}
+.MainHomeBanner_slider02_content {
+    max-width: 70%;
+    margin: auto;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0 80px;
+}
+.MainHomeBanner_slider02_content_box01 {
+    margin: 0;
+    width: 33.33%;
+}
+.MainHomeBanner_slider02_content_box01 ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    gap: 60px 0;
+}
+.MainHomeBanner_slider02_content_box01 ul li {
+    width: 100%;    
+    display: block;
+    text-align: right;
+}
+.MainHomeBanner_slider02_content_box01 ul li span {
+    width: 68px;
+    height: 77px;  
+    display: block;
+    margin-left: auto;
+}
+.MainHomeBanner_slider02_content_box01 ul li span img {
+    width: 100%;
+    height: 100%;
+}   
+.MainHomeBanner_slider02_content_box01 ul li h3 {
+    color: #fff;
+    font-size: 27px;
+    margin: 15px 0;
+    display: block;
+    line-height: normal;
+    font-weight: normal;
+}
+.MainHomeBanner_slider02_content_box01 ul li p {
+    color: #b6b6b6;
+    font-size: 16px;
+    margin: 0;
+    display: block;
+    line-height: 26px;
+    font-weight: normal;
+}
+
+.MainHomeBanner_slider02_content_box02 {
+    width: 33.33%;
+    margin: auto;
+}
+
+.MainHomeBanner_slider02_content_box02 img {
+    width: 397px;
+}
+
+.MainHomeBanner_slider02_content_box03 {
+    margin: 0;
+    width: 33.33%;
+}
+.MainHomeBanner_slider02_content_box03 ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    gap: 60px 0;
+}
+.MainHomeBanner_slider02_content_box03 ul li {
+    width: 100%;    
+    display: block;
+    text-align: left;
+}
+.MainHomeBanner_slider02_content_box03 ul li span {
+    width: 68px;
+    height: 77px;  
+    display: block;
+    margin-right: auto;
+}
+.MainHomeBanner_slider02_content_box03 ul li span img {
+    width: 100%;
+    height: 100%;
+}   
+.MainHomeBanner_slider02_content_box03 ul li h3 {
+    color: #fff;
+    font-size: 27px;
+    margin: 15px 0;
+    display: block;
+    line-height: normal;
+    font-weight: normal;
+}
+.MainHomeBanner_slider02_content_box03 ul li p {
+    color: #b6b6b6;
+    font-size: 16px;
+    margin: 0;
+    display: block;
+    line-height: 26px;
+    font-weight: normal;
+}

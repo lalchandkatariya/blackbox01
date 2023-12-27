@@ -1,0 +1,37 @@
+.FooterText {
+  color: #808088;
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  width: 580px;
+  border-top: none;
+  border-bottom: none;
+}
+
+.footer_Content {
+  width: 600px;
+  position: relative;
+  margin: auto;
+}
+
+.Footer_container {
+  width: 100%;
+  display: grid;
+  place-items: center;
+
+}
+
+
+/* Mobile */
+
+@media (max-width: 640px) {
+  .footer_Content {
+    display: none;
+  }
+
+  .FooterText {
+    position: unset;
+    bottom: 0;
+    width: 100%;
+  }
+}

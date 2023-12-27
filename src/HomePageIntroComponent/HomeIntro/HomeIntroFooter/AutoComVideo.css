@@ -1,0 +1,110 @@
+.section-linear {
+    z-index: 1;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 0px;
+    padding-bottom: 100px;
+    display: flex;
+    position: relative;
+}
+
+.div-block-1324-copy {
+    max-width: 110ch;
+    grid-column-gap: 16px;
+    grid-row-gap: 16px;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 140px;
+    display: flex;
+    position: relative;
+}
+
+.text-block-35 {
+    color: #f7f7f7;
+    -webkit-text-fill-color: transparent;
+    background-image: linear-gradient(#fff, #474747);
+    -webkit-background-clip: text;
+    background-clip: text;
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 130%;
+}
+
+
+.h6 {
+    color: #b4bcd0;
+    font-family: Inter, sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 130%;
+}
+
+.button-primary-2 {
+    height: 38px;
+    grid-column-gap: 12px;
+    grid-row-gap: 12px;
+    color: #fff;
+    text-transform: none;
+    background-color: #2151c5;
+    background-image: radial-gradient(circle closest-corner at 50% 100%, #2558d3 29%, #1944ac);
+    border-radius: 99px;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 16px 8px 24px;
+    font-size: 13px;
+    font-weight: 300;
+    line-height: 16px;
+    text-decoration: none;
+    transition: all .2s;
+    display: flex;
+    box-shadow: 0 12px 50px rgba(71, 113, 217, .44), inset 1px 1px rgba(192, 193, 224, .2), inset -1px -1px 2px #19367c;
+}
+
+.text-block-41 {
+    text-decoration: none;
+}
+
+.icon-16 {
+    width: 16px;
+    height: 16px;
+    max-width: none;
+}
+
+.h2-new {
+
+    -webkit-background-clip: text;
+    background: black;
+    color: white;
+    background-clip: text;
+    margin-top: 10px;
+    margin-bottom: 0;
+    font-family: Inter, sans-serif;
+    font-size: 48px;
+    font-weight: 500;
+    line-height: 110%;
+}
+
+.feature-name {
+
+    max-width: 100ch;
+    grid-column-gap: 16px;
+    grid-row-gap: 16px;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+
+    display: flex;
+    position: relative;
+    left: 25%;
+}
+
+.div-block-131-copy {
+    margin-bottom: 0;
+}
+
+.h7._64ch {
+    max-width: 64ch;
+    font-size: 20px;
+}
